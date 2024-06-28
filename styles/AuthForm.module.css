@@ -1,0 +1,39 @@
+.formContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .formTitle {
+    text-align: center;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .errorMessage {
+    color: red;
+    text-align: center;
+  }
+  
